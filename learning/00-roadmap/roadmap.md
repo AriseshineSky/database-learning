@@ -1,63 +1,61 @@
 # Learning Roadmap
 
-CMU 15-445 self-study path. Each phase maps to BusTub projects + lectures + papers.
+CMU 15-445 self-study path for **backend engineers** — build a database behavior model, not a database kernel.
+
+See [engineering-track.md](./engineering-track.md) for goals, boundaries, and what to skip.
 
 ## Overview
 
 ```
-SQL & Relational Model
+SQL & Relational Model (foundation)
         ↓
-Storage (Buffer Pool, Pages, Disk)
+Storage & Indexes          ← deep (behavior + EXPLAIN)
         ↓
-Indexes (B+ Tree, Hash)
+Query Execution & Optimizer ← deep (joins, plans, statistics)
         ↓
-Query Execution (Volcano model, Joins, Sort)
+Transactions & Isolation   ← deep (MVCC, deadlocks, anomalies)
         ↓
-Query Optimization
+Recovery & Durability      ← conceptual (WAL, checkpoints)
         ↓
-Concurrency (2PL, Timestamp, MVCC)
-        ↓
-Recovery (WAL, ARIES)
-        ↓
-Distributed Systems
+Architecture & Scale       ← capstone (replicas, sharding, system map)
 ```
 
-## Phase timeline (estimate)
+## Phase timeline (engineering track)
 
 | Phase | Duration | Key output |
 |-------|----------|------------|
-| Setup + P0 | 1 week | C++ ready, BusTub compiles |
-| P1 Buffer Pool | 2 weeks | LRU replacement working |
-| P2 B+ Tree | 3 weeks | Index insert/search/delete |
-| P3 Query Execution | 3 weeks | Iterator model executors |
-| P4 Concurrency | 3 weeks | Lock manager + 2PL |
-| Recovery study | 1 week | ARIES paper + notes |
-| Architecture paper | 1 week | Full-system mental model |
+| E1 Storage & indexes | 2 weeks | Index design checklist; EXPLAIN fluency |
+| E2 Query & optimizer | 2 weeks | Join/plan intuition; tuning playbook |
+| E3 Transactions | 2 weeks | Isolation guide; deadlock playbook |
+| E4 Recovery | 3 days | WAL / durability cheat sheet |
+| E5 Architecture | 1 week | Full-system map; scale notes |
 
-**Total:** ~3–4 months at 10–15 hrs/week
+**Total:** ~7–8 weeks at 8–10 hrs/week
 
 ## Lecture map (CMU Fall 2025)
 
-| Lectures | Topic | BusTub Project |
-|----------|-------|----------------|
-| #01–#02 | Relational model, SQL | — |
-| #03–#05 | Storage, Memory Mgmt | P1 |
-| #06–#10 | Indexes, B+ Tree | P2 |
-| #11–#16 | Query execution & optimization | P3 |
-| #17–#20 | Concurrency, MVCC | P4 |
-| #21–#22 | Logging, Recovery | study |
-| #23–#24 | Distributed DB | study |
+| Lectures | Topic | Engineering task | Depth |
+|----------|-------|------------------|-------|
+| #01–#02 | Relational model, SQL | foundation | read if rusty |
+| #03–#05 | Storage, memory | e1_storage_and_indexes | deep (behavior) |
+| #06–#10 | Indexes, B+ tree | e1_storage_and_indexes | deep |
+| #11–#16 | Execution & optimization | e2_query_execution_and_optimizer | deep |
+| #17–#20 | Concurrency, MVCC | e3_transactions_and_isolation | deep |
+| #21–#22 | Logging, recovery | e4_recovery_and_durability | conceptual |
+| #23–#24 | Distributed DB | e5_architecture_and_scale | skim |
 
 Videos: [Fall 2025 YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5)
 
-## Paper reading order
+## Paper reading order (engineering)
 
-Papers are **not** read in isolation — each is tied to a task:
+Papers explain **why** systems are designed this way — not homework to implement.
 
-1. **Volcano** → before/during P3 (query execution)
-2. **ARIES** → during recovery study (after P4)
-3. **Architecture of a Database System** → after all projects (capstone overview)
+1. **A Critique of ANSI SQL Isolation Levels** → during E3 (isolation anomalies)
+2. **Serializable Isolation for Snapshot Databases** → during E3 (SSI intuition)
+3. **Volcano** → during E2 (iterator / plan pipeline — conceptual)
+4. **Architecture of a Database System** → during E5 (capstone overview)
+5. **ARIES** → during E4 (skim — WAL + recovery phases)
 
-Optional (later):
-- What Goes Around Comes Around (data models)
-- A Critique of ANSI SQL Isolation Levels
+## Optional kernel track
+
+BusTub projects (P0–P4) remain in `10-database/tasks/p*.md` for anyone who later wants implementation depth. **Not required** for the engineering track.

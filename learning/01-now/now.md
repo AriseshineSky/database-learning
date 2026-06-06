@@ -1,27 +1,32 @@
 # Current Task
 
-**Task:** Buffer Pool Manager (BusTub Project 1)  
-**Started:** 2026-06-05  
-**Target:** Pass all P1 autograder tests
+**Task:** Storage & Indexes (Engineering E1)  
+**Track:** engineering  
+**Started:** 2026-06-06  
+**Target:** Index design checklist + EXPLAIN fluency
 
 ## Goal
 
-Understand pages, frame table, page replacement (LRU), and disk I/O.
+Understand storage and indexing well enough to design schemas and indexes in production — without implementing buffer pools or B+ trees.
 
 ## Output
 
-- [ ] Clone BusTub locally (private repo)
-- [ ] Implement `BufferPoolManager`
-- [ ] Implement LRU replacement policy
-- [ ] Pass P1 unit tests
+- [ ] Notes: index design checklist
+- [ ] 3+ EXPLAIN (ANALYZE, BUFFERS) examples saved
+- [ ] Can explain composite index order and when seq scan wins
 
 ## Materials
 
-See: [tasks/p1_buffer_pool.md](../10-database/tasks/p1_buffer_pool.md)
+See: [tasks/e1_storage_and_indexes.md](../10-database/tasks/e1_storage_and_indexes.md)
 
 ## Today's focus
 
-1. Watch CMU Lecture #04 (Memory Management)
-2. Read textbook Ch 13.2–13.5
-3. Read BusTub P1 handout
-4. Sketch: page ID → frame mapping + free list + eviction
+1. Watch CMU Lecture #08 (Indexes & Filters I) — start here if storage basics are rusty, do #03 first
+2. Read textbook Ch 14.1–14.4 (B+ tree, composite indexes)
+3. Set up local PostgreSQL (if not done) for hands-on
+4. Run one query with `EXPLAIN (ANALYZE, BUFFERS)` — with and without an index
+
+## Skip today
+
+- BusTub clone / P1 buffer pool implementation
+- LRU replacement policy implementation details

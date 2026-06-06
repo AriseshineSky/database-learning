@@ -1,6 +1,7 @@
 # Task: Buffer Pool Manager (BusTub P1)
 
-**Status:** in progress  
+**Status:** paused (kernel track — optional)  
+**Track:** kernel  
 **Prerequisite:** P0  
 **Registry:** L04, Ch 12–13, B02
 

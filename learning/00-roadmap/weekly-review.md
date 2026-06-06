@@ -10,6 +10,7 @@ Copy this section each week. Fill in on Sunday (or your review day).
 
 - [ ] Task:
 - [ ] Registry items moved to new status:
+- [ ] EXPLAIN / hands-on examples added to `10-database/notes/` (engineering track)
 
 ### What blocked me?
 
