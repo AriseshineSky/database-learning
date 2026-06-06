@@ -29,7 +29,7 @@ Implement in-memory page cache over disk pages: fetch, flush, pin/unpin, LRU evi
 
 ## Watch
 
-- CMU 15-445 Lecture #04 (YouTube playlist, Fall 2022 #04)
+- CMU 15-445 Lecture #04 — [Fall 2025 YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5) (第 4 集)
 
 ## Output
 

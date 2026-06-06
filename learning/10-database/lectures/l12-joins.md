@@ -1,7 +1,7 @@
 # Lecture #12 — Joins Algorithms
 
 **Status:** not started  
-**Link:** https://15445.courses.cs.cmu.edu/spring2026/
+**Link:** https://15445.courses.cs.cmu.edu/fall2025/
 
 ## Used in
 

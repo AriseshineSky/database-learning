@@ -2,7 +2,7 @@
 
 **Status:** not started  
 **Prerequisite:** P4 (or parallel after concurrency lectures)  
-**Registry:** L22–L23, Ch 19, P02 (ARIES)
+**Registry:** L21–L22, Ch 19, P02 (ARIES)
 
 ## Goal
 
@@ -11,8 +11,8 @@ Understand WAL, checkpoints, and the ARIES recovery protocol. No BusTub project 
 ## Must Read
 
 - [ ] [ARIES paper](../../papers/aries.md) ← **core paper**
-- [ ] [Lecture #22 — Database Logging](../../lectures/l22-logging.md)
-- [ ] [Lecture #23 — Database Recovery](../../lectures/l23-recovery.md)
+- [ ] [Lecture #21 — Database Logging](../../lectures/l22-logging.md)
+- [ ] [Lecture #22 — Database Recovery](../../lectures/l23-recovery.md)
 - [ ] Textbook Ch 19.1–19.9
 
 ## Must Understand

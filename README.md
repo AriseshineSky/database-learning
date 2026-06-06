@@ -46,10 +46,11 @@ learning/
 
 | Resource | Link |
 |----------|------|
-| CMU 15-445 (Spring 2026) | https://15445.courses.cs.cmu.edu/spring2026/ |
+| CMU 15-445 (Fall 2025) | https://15445.courses.cs.cmu.edu/fall2025/ |
+| Course schedule + per-lecture videos | https://15445.courses.cs.cmu.edu/fall2025/schedule.html |
 | BusTub (do NOT fork publicly) | https://github.com/cmu-db/bustub |
 | Textbook | Database System Concepts, 7th ed. (Silberschatz) |
-| Lectures (YouTube, Fall 2022) | https://www.youtube.com/playlist?list=PLSE8ODhjOmbeq5ARXfKjRnLuMdesenvg6 |
+| Lectures (YouTube, Fall 2025) | https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5 |
 
 ## BusTub warning
 

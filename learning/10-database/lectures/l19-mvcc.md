@@ -1,8 +1,8 @@
-# Lecture #19 — Multi-Version Concurrency Control I
+# Lecture #20 — Multi-Version Concurrency Control
 
 **Status:** not started  
-**Link:** https://15445.courses.cs.cmu.edu/spring2026/  
-**Notes PDF:** https://15445.courses.cs.cmu.edu/fall2024/notes/19-multiversioning.pdf
+**Link:** https://15445.courses.cs.cmu.edu/fall2025/schedule.html (#20)  
+**Video:** [Fall 2025 YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5)
 
 ## Used in
 

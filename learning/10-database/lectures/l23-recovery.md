@@ -1,8 +1,8 @@
-# Lecture #23 — Database Recovery
+# Lecture #22 — Database Recovery
 
 **Status:** not started  
-**Link:** https://15445.courses.cs.cmu.edu/spring2026/  
-**Notes PDF:** https://15445.courses.cs.cmu.edu/spring2026/notes/23-recovery.pdf
+**Link:** https://15445.courses.cs.cmu.edu/fall2025/schedule.html (#22)  
+**Video:** [Fall 2025 YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5)
 
 ## Used in
 

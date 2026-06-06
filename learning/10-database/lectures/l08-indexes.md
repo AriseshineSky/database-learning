@@ -1,7 +1,7 @@
 # Lecture #08 — Indexes & Filters I
 
 **Status:** not started  
-**Link:** https://15445.courses.cs.cmu.edu/spring2026/
+**Link:** https://15445.courses.cs.cmu.edu/fall2025/
 
 ## Used in
 

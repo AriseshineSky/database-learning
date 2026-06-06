@@ -36,7 +36,7 @@ Distributed Systems
 
 **Total:** ~3–4 months at 10–15 hrs/week
 
-## Lecture map (CMU Spring 2026)
+## Lecture map (CMU Fall 2025)
 
 | Lectures | Topic | BusTub Project |
 |----------|-------|----------------|
@@ -44,9 +44,11 @@ Distributed Systems
 | #03–#05 | Storage, Memory Mgmt | P1 |
 | #06–#10 | Indexes, B+ Tree | P2 |
 | #11–#16 | Query execution & optimization | P3 |
-| #17–#21 | Concurrency, MVCC | P4 |
-| #22–#23 | Logging, Recovery | study |
-| #24–#25 | Distributed DB | study |
+| #17–#20 | Concurrency, MVCC | P4 |
+| #21–#22 | Logging, Recovery | study |
+| #23–#24 | Distributed DB | study |
+
+Videos: [Fall 2025 YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5)
 
 ## Paper reading order
 

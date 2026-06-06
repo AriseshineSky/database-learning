@@ -1,9 +1,9 @@
 # Lecture #04 — Memory Management
 
-**Course:** CMU 15-445 Spring 2026  
+**Course:** CMU 15-445 Fall 2025  
 **Status:** reading  
-**Slides/Notes:** https://15445.courses.cs.cmu.edu/spring2026/  
-**Video:** [YouTube — Fall 2022 #04](https://www.youtube.com/watch?v=UZj6pFn5NGo)
+**Slides/Notes:** https://15445.courses.cs.cmu.edu/fall2025/schedule.html (#04)  
+**Video:** [YouTube — Fall 2025 playlist #04](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYMAgsGH-GtY5rJYZ6zjsd5)
 
 ## Used in
 

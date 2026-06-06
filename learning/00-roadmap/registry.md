@@ -10,19 +10,19 @@ Single source of truth. Every entry must link to a task in `10-database/tasks/`.
 
 | ID | Title | Link | Task | Status |
 |----|-------|------|------|--------|
-| L01 | Relational Model & Algebra | [CMU #01](https://15445.courses.cs.cmu.edu/spring2026/) | setup | not started |
-| L04 | Memory Management | [CMU #04](https://15445.courses.cs.cmu.edu/spring2026/) | p1_buffer_pool | reading |
-| L07 | Hash Tables | [CMU #07](https://15445.courses.cs.cmu.edu/spring2026/) | p2_b_plus_tree | not started |
-| L08 | Indexes & Filters I | [CMU #08](https://15445.courses.cs.cmu.edu/spring2026/) | p2_b_plus_tree | not started |
-| L10 | Index Concurrency Control | [CMU #10](https://15445.courses.cs.cmu.edu/spring2026/) | p2_b_plus_tree | not started |
-| L11 | Sorting & Aggregations | [CMU #11](https://15445.courses.cs.cmu.edu/spring2026/) | p3_query_execution | not started |
-| L12 | Joins Algorithms | [CMU #12](https://15445.courses.cs.cmu.edu/spring2026/) | p3_query_execution | not started |
-| L13 | Query Execution I | [CMU #13](https://15445.courses.cs.cmu.edu/spring2026/) | p3_query_execution | not started |
-| L17 | Concurrency Control Theory | [CMU #17](https://15445.courses.cs.cmu.edu/spring2026/) | p4_concurrency | not started |
-| L18 | Two-Phase Locking | [CMU #18](https://15445.courses.cs.cmu.edu/spring2026/) | p4_concurrency | not started |
-| L19 | MVCC I | [CMU #19](https://15445.courses.cs.cmu.edu/spring2026/) | p4_concurrency | not started |
-| L22 | Database Logging | [CMU #22](https://15445.courses.cs.cmu.edu/spring2026/) | recovery_study | not started |
-| L23 | Database Recovery | [CMU #23](https://15445.courses.cs.cmu.edu/spring2026/) | recovery_study | not started |
+| L01 | Relational Model & Algebra | [CMU #01](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | setup | not started |
+| L04 | Memory Management | [CMU #04](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p1_buffer_pool | reading |
+| L07 | Hash Tables | [CMU #07](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p2_b_plus_tree | not started |
+| L08 | Indexes & Filters I | [CMU #08](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p2_b_plus_tree | not started |
+| L10 | Index Concurrency Control | [CMU #10](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p2_b_plus_tree | not started |
+| L11 | Sorting & Aggregations | [CMU #11](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p3_query_execution | not started |
+| L12 | Joins Algorithms | [CMU #12](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p3_query_execution | not started |
+| L13 | Query Execution I | [CMU #13](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p3_query_execution | not started |
+| L17 | Concurrency Control Theory | [CMU #17](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p4_concurrency | not started |
+| L18 | Two-Phase Locking | [CMU #18](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p4_concurrency | not started |
+| L20 | Multi-Version Concurrency Control | [CMU #20](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | p4_concurrency | not started |
+| L21 | Database Logging | [CMU #21](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | recovery_study | not started |
+| L22 | Database Recovery | [CMU #22](https://15445.courses.cs.cmu.edu/fall2025/schedule.html) | recovery_study | not started |
 
 Card files: `10-database/lectures/`
 

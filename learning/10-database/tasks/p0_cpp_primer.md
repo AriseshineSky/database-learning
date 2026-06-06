@@ -11,7 +11,7 @@ Prove C++ proficiency. Understand smart pointers, move semantics, templates used
 ## Must Read
 
 - [ ] BusTub P0 handout (on CMU course site)
-- [ ] CMU C++ Bootcamp: https://15445.courses.cs.cmu.edu/spring2026/bootcamp.html
+- [ ] CMU C++ Bootcamp: https://15445.courses.cs.cmu.edu/fall2025/bootcamp.html
 
 ## Must Do
 
