@@ -1,6 +1,6 @@
 # Knowledge Registry
 
-Single source of truth. Every entry links to a task in `10-database/tasks/`.
+Single source of truth. Every entry links to a task in `10-database/tasks/` or `15-operating-systems/tasks/`.
 
 **Status:** `not started` | `reading` | `understanding` | `implemented` | `mastered`  
 **Depth (engineering):** `deep` | `conceptual` | `skim` | `skip`
@@ -96,3 +96,54 @@ Book: *Database System Concepts*, 7th ed.
 | BT2 | B+ Tree Index | [p2_b_plus_tree.md](../10-database/tasks/p2_b_plus_tree.md) | not started |
 | BT3 | Query Execution | [p3_query_execution.md](../10-database/tasks/p3_query_execution.md) | not started |
 | BT4 | Concurrency Control | [p4_concurrency.md](../10-database/tasks/p4_concurrency.md) | not started |
+
+---
+
+## OS Lectures (NJU 2026 / jyy)
+
+Playlist: [Bilibili BV1eqEA6JEZA](https://www.bilibili.com/video/BV1eqEA6JEZA)
+
+| ID | Title | Task | Depth | Status |
+|----|-------|------|-------|--------|
+| OS-L01 | 绪论 | o1_foundations | deep | not started |
+| OS-L02 | 应用视角的操作系统 | o1_foundations | deep | not started |
+| OS-L03 | 硬件视角的操作系统 | o1_foundations | deep | not started |
+| OS-L04 | LLM, Agents 和 Scaling Law (Aside) | o1_foundations | skim | not started |
+| OS-L05 | fork, execve, exit | o2_process_and_memory | deep | not started |
+| OS-L06 | mmap, munmap, mprotect | o2_process_and_memory | deep | not started |
+| OS-L07 | 文件描述符 | o2_process_and_memory | deep | not started |
+| OS-L08 | 终端和 UNIX Shell (Aside) | o2_process_and_memory | deep | not started |
+| OS-L09 | C 标准库原理 | o3_runtime_and_linking | deep | not started |
+| OS-L10 | 调试 C 标准库 | o3_runtime_and_linking | deep | not started |
+| OS-L11 | 链接和加载 | o3_runtime_and_linking | deep | not started |
+| OS-L12 | 从零构建 Linux 应用世界 | o3_runtime_and_linking | deep | not started |
+| OS-L13 | 多处理器编程 | o4_concurrency | conceptual | not started |
+| OS-L14 | 互斥 | o4_concurrency | deep | not started |
+| OS-L15 | 条件变量 | o4_concurrency | deep | not started |
+| OS-L16 | 信号量 | o4_concurrency | deep | not started |
+| OS-L17 | 并发 Bugs | o4_concurrency | deep | not started |
+| OS-L18 | 并行算法和数据结构 | o4_concurrency | conceptual | not started |
+| OS-L19 | 协程、Goroutine、异步 | o5_parallel_and_async | deep | not started |
+| OS-L20 | CPU、SIMD 和 GPU | o5_parallel_and_async | conceptual | not started |
+| OS-L21 | 一个 Token 的旅程 | o5_parallel_and_async | skim | not started |
+| OS-L22 | I/O 设备和驱动 | o6_io_fs_and_db_bridge | conceptual | not started |
+| OS-L23 | 存储设备原理 | o6_io_fs_and_db_bridge | deep | not started |
+| OS-L24 | 文件系统 API (1) | o6_io_fs_and_db_bridge | deep | not started |
+| OS-L25 | 文件系统 API (2) | o6_io_fs_and_db_bridge | deep | not started |
+| OS-L26 | 文件系统与崩溃一致性 | o6_io_fs_and_db_bridge | deep | not started |
+| OS-L27 | 数据库系统 | o6_io_fs_and_db_bridge | deep | not started |
+
+Card files: `15-operating-systems/lectures/` (add as you watch)
+
+---
+
+## OS Projects (engineering track)
+
+| ID | Task | Card | Status |
+|----|------|------|--------|
+| O1 | Foundations | [o1_foundations.md](../15-operating-systems/tasks/o1_foundations.md) | not started |
+| O2 | Process & Memory | [o2_process_and_memory.md](../15-operating-systems/tasks/o2_process_and_memory.md) | not started |
+| O3 | Runtime & Linking | [o3_runtime_and_linking.md](../15-operating-systems/tasks/o3_runtime_and_linking.md) | not started |
+| O4 | Concurrency | [o4_concurrency.md](../15-operating-systems/tasks/o4_concurrency.md) | not started |
+| O5 | Parallel & Async | [o5_parallel_and_async.md](../15-operating-systems/tasks/o5_parallel_and_async.md) | not started |
+| O6 | I/O, FS & DB Bridge | [o6_io_fs_and_db_bridge.md](../15-operating-systems/tasks/o6_io_fs_and_db_bridge.md) | not started |

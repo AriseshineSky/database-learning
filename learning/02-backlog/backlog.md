@@ -2,7 +2,8 @@
 
 Ordered queue. Pull the next item into `01-now/now.md` when the current task is done.
 
-**Active track:** engineering (see [engineering-track.md](../00-roadmap/engineering-track.md))
+**Active tracks:** DB engineering (primary) + OS engineering (parallel)  
+See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-track.md](../00-roadmap/os-engineering-track.md), [master-schedule.md](../00-roadmap/master-schedule.md)
 
 ---
 
@@ -35,6 +36,17 @@ Ordered queue. Pull the next item into `01-now/now.md` when the current task is 
 | K5 | Concurrency Control (P4) | not started |
 | K6 | Logging & Recovery (kernel study) | not started |
 
+## OS engineering track (parallel, secondary)
+
+| # | Task | Status |
+|---|------|--------|
+| O1 | [Foundations](../15-operating-systems/tasks/o1_foundations.md) | **not started** ← parallel |
+| O2 | [Process & Memory](../15-operating-systems/tasks/o2_process_and_memory.md) | not started |
+| O3 | [Runtime & Linking](../15-operating-systems/tasks/o3_runtime_and_linking.md) | not started |
+| O4 | [Concurrency](../15-operating-systems/tasks/o4_concurrency.md) | not started |
+| O5 | [Parallel & Async](../15-operating-systems/tasks/o5_parallel_and_async.md) | not started |
+| O6 | [I/O, FS & DB Bridge](../15-operating-systems/tasks/o6_io_fs_and_db_bridge.md) | not started |
+
 ## LeetCode (parallel, low priority)
 
-See `30-leetcode/backlog.md` — do NOT let this block the engineering track.
+See `30-leetcode/backlog.md` — do NOT let this block the engineering tracks.

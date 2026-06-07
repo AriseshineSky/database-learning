@@ -30,3 +30,10 @@ See: [tasks/e1_storage_and_indexes.md](../10-database/tasks/e1_storage_and_index
 
 - BusTub clone / P1 buffer pool implementation
 - LRU replacement policy implementation details
+
+---
+
+## Parallel track (after today's DB focus)
+
+OS 副轨见 [`parallel.md`](./parallel.md) — 本周目标：O1，看 L01–L02。  
+双轨总表：[`master-schedule.md`](../00-roadmap/master-schedule.md)

@@ -10,7 +10,9 @@ Copy this section each week. Fill in on Sunday (or your review day).
 
 - [ ] Task:
 - [ ] Registry items moved to new status:
-- [ ] EXPLAIN / hands-on examples added to `10-database/notes/` (engineering track)
+- [ ] EXPLAIN / hands-on examples added to `10-database/notes/` (DB track)
+- [ ] OS notes or experiments added to `15-operating-systems/notes/` (OS track)
+- [ ] DB↔OS 对齐周？对照 [master-schedule.md](./master-schedule.md) 检查
 
 ### What blocked me?
 
@@ -31,8 +33,10 @@ Copy this section each week. Fill in on Sunday (or your review day).
 
 | Area | Hours |
 |------|-------|
-| Lectures | |
-| BusTub coding | |
+| DB lectures | |
+| OS lectures (jyy) | |
+| DB hands-on (EXPLAIN) | |
+| OS hands-on (strace/gdb/pthread) | |
 | Paper reading | |
 | Notes writing | |
 
