@@ -12,7 +12,8 @@ Copy this section each week. Fill in on Sunday (or your review day).
 - [ ] Registry items moved to new status:
 - [ ] EXPLAIN / hands-on examples added to `10-database/notes/` (DB track)
 - [ ] OS notes or experiments added to `15-operating-systems/notes/` (OS track)
-- [ ] DB↔OS 对齐周？对照 [master-schedule.md](./master-schedule.md) 检查
+- [ ] Ruby notes added to `25-ruby/notes/` (Ruby track, if active)
+- [ ] 对齐周？对照 [master-schedule.md](./master-schedule.md) 检查 DB↔OS↔Ruby
 
 ### What blocked me?
 
@@ -37,6 +38,7 @@ Copy this section each week. Fill in on Sunday (or your review day).
 | OS lectures (jyy) | |
 | DB hands-on (EXPLAIN) | |
 | OS hands-on (strace/gdb/pthread) | |
+| Ruby (RubyMonk/koans/源码) | |
 | Paper reading | |
 | Notes writing | |
 

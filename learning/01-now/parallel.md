@@ -1,6 +1,8 @@
-# Parallel Track (secondary)
+# Parallel Track A — OS
 
 **Only look at this after finishing today's focus in `now.md`.**
+
+Ruby 副轨 B（更低优先级）：[`parallel-ruby.md`](./parallel-ruby.md)
 
 ---
 

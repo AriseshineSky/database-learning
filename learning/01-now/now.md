@@ -35,5 +35,6 @@ See: [tasks/e1_storage_and_indexes.md](../10-database/tasks/e1_storage_and_index
 
 ## Parallel track (after today's DB focus)
 
-OS 副轨见 [`parallel.md`](./parallel.md) — 本周目标：O1，看 L01–L02。  
-双轨总表：[`master-schedule.md`](../00-roadmap/master-schedule.md)
+OS 副轨 A：[`parallel.md`](./parallel.md) — 本周 O1，看 L01–L02。  
+Ruby 副轨 B：[`parallel-ruby.md`](./parallel-ruby.md) — 有余力时 R1 RubyMonk。  
+总表：[`master-schedule.md`](../00-roadmap/master-schedule.md)

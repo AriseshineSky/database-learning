@@ -2,8 +2,8 @@
 
 Ordered queue. Pull the next item into `01-now/now.md` when the current task is done.
 
-**Active tracks:** DB engineering (primary) + OS engineering (parallel)  
-See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-track.md](../00-roadmap/os-engineering-track.md), [master-schedule.md](../00-roadmap/master-schedule.md)
+**Active tracks:** DB (primary) + OS (parallel A) + Ruby (parallel B, optional)  
+See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-track.md](../00-roadmap/os-engineering-track.md), [ruby-engineering-track.md](../00-roadmap/ruby-engineering-track.md), [master-schedule.md](../00-roadmap/master-schedule.md)
 
 ---
 
@@ -46,6 +46,15 @@ See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-
 | O4 | [Concurrency](../15-operating-systems/tasks/o4_concurrency.md) | not started |
 | O5 | [Parallel & Async](../15-operating-systems/tasks/o5_parallel_and_async.md) | not started |
 | O6 | [I/O, FS & DB Bridge](../15-operating-systems/tasks/o6_io_fs_and_db_bridge.md) | not started |
+
+## Ruby engineering track (parallel B, ~2h/week)
+
+| # | Task | Status |
+|---|------|--------|
+| R1 | [RubyMonk Ascent](../25-ruby/tasks/r1_rubymonk_ascent.md) | **not started** ← parallel-ruby |
+| R2 | [Metaprogramming Workshop](../25-ruby/tasks/r2_metaprogramming_workshop.md) | not started |
+| R3 | [Rails Internals](../25-ruby/tasks/r3_rails_internals.md) | not started |
+| R4 | [OO Design](../25-ruby/tasks/r4_oo_design.md) | not started |
 
 ## LeetCode (parallel, low priority)
 

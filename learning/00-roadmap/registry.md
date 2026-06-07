@@ -1,6 +1,6 @@
 # Knowledge Registry
 
-Single source of truth. Every entry links to a task in `10-database/tasks/` or `15-operating-systems/tasks/`.
+Single source of truth. Every entry links to a task in `10-database/tasks/`, `15-operating-systems/tasks/`, or `25-ruby/tasks/`.
 
 **Status:** `not started` | `reading` | `understanding` | `implemented` | `mastered`  
 **Depth (engineering):** `deep` | `conceptual` | `skim` | `skip`
@@ -147,3 +147,38 @@ Card files: `15-operating-systems/lectures/` (add as you watch)
 | O4 | Concurrency | [o4_concurrency.md](../15-operating-systems/tasks/o4_concurrency.md) | not started |
 | O5 | Parallel & Async | [o5_parallel_and_async.md](../15-operating-systems/tasks/o5_parallel_and_async.md) | not started |
 | O6 | I/O, FS & DB Bridge | [o6_io_fs_and_db_bridge.md](../15-operating-systems/tasks/o6_io_fs_and_db_bridge.md) | not started |
+
+---
+
+## Ruby Materials (free / open)
+
+See [ruby-roadmap.md](./ruby-roadmap.md) for full index.
+
+| ID | Title | Task | Depth | Status |
+|----|-------|------|-------|--------|
+| RB-M1 | Ruby Primer: Ascent (RubyMonk) | r1_rubymonk_ascent | deep | not started |
+| RB-M2 | Metaprogramming Ruby (RubyMonk) | r1_rubymonk_ascent | deep | not started |
+| RB-M3 | Metaprogramming Ruby: Ascent | r2_metaprogramming_workshop | deep | not started |
+| RB-W1 | ruby-metaprogramming-tokyo (Paolo) | r2_metaprogramming_workshop | deep | not started |
+| RB-K1 | metaprogramming_koans | r2_metaprogramming_workshop | deep | not started |
+| RB-C1 | metaprogramming-challenges (browser) | r2_metaprogramming_workshop | deep | not started |
+| RB-G1 | Metaprogramming Guide (Gist) | r2_metaprogramming_workshop | skim | not started |
+| RB-T1 | Reflecting on AR Associations | r3_rails_internals | deep | not started |
+| RB-T2 | Rails on Ruby | r3_rails_internals | deep | not started |
+| RB-T3 | In Defense of Metaprogramming | r3_rails_internals | conceptual | not started |
+| RB-T4 | All the Little Things (Sandi Metz) | r4_oo_design | deep | not started |
+| RB-T5 | Nothing is Something | r4_oo_design | deep | not started |
+| RB-T6 | Polly Want a Message | r4_oo_design | deep | not started |
+
+Card files: `25-ruby/talks/`
+
+---
+
+## Ruby Projects (engineering track)
+
+| ID | Task | Card | Status |
+|----|------|------|--------|
+| R1 | RubyMonk Ascent | [r1_rubymonk_ascent.md](../25-ruby/tasks/r1_rubymonk_ascent.md) | not started |
+| R2 | Metaprogramming Workshop | [r2_metaprogramming_workshop.md](../25-ruby/tasks/r2_metaprogramming_workshop.md) | not started |
+| R3 | Rails Internals | [r3_rails_internals.md](../25-ruby/tasks/r3_rails_internals.md) | not started |
+| R4 | OO Design | [r4_oo_design.md](../25-ruby/tasks/r4_oo_design.md) | not started |
