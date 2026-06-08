@@ -1,16 +1,18 @@
 # Systems Learning System
 
-Task-driven knowledge system for **backend engineers**:
+Task-driven knowledge system for **Rails / Java / Go backend engineers**:
 
-- **DB 主轨** — CMU 15-445（用库、调优、事务，不写内核）
-- **OS 副轨 A** — [NJU 2026 操作系统原理](https://www.bilibili.com/video/BV1eqEA6JEZA)（蒋炎岩 / jyy）
-- **Ruby 副轨 B** — Rails 进阶，全免费资料（拆魔法、元编程、OO 设计）
+- **DB primary track** — CMU 15-445 (selected lectures): indexes, EXPLAIN, transactions, MVCC, optimizer — not kernel development
+- **OS parallel A** — [NJU 2026 操作系统原理](https://www.bilibili.com/video/BV1eqEA6JEZA)（蒋炎岩 / jyy）
+- **Ruby parallel B** — Rails advanced topics, all free resources (demystify magic, metaprogramming, OO design)
 
 **Not a file dump.** Every material must be linked to a task.
 
 ## Who this is for
 
-You want Staff-level fluency: database tuning, OS debugging intuition, and Ruby/Rails internals — without building kernels or gems for a living.
+You want advanced backend fluency: read EXPLAIN, design indexes, debug transactions, tune PostgreSQL — without building database kernels or publishing papers.
+
+**Target:** Database knowledge > 95% of application developers, < database kernel engineers.
 
 Read track philosophies:
 

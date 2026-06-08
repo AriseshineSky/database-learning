@@ -1,80 +1,82 @@
 # Master Schedule — DB + OS + Ruby
 
-**起始日：** 2026-06-06  
-**模式：** 主轨 DB + 副轨 OS + 副轨 Ruby（见 `parallel.md` / `parallel-ruby.md`）
+**Start date:** 2026-06-06  
+**Mode:** DB primary + OS parallel A + Ruby parallel B (see `parallel.md` / `parallel-ruby.md`)
 
 ---
 
-## 时间预算
+## Time budget
 
-| 周 | DB（主） | OS（副 A） | Ruby（副 B） | 合计 |
-|----|----------|------------|--------------|------|
-| 典型周 | 5–6 h | 3–4 h | 0–2 h | 8–12 h |
-| 忙碌周 | 5–6 h | 1–2 h | 0 h | 6–8 h |
+| Week | DB (primary) | OS (parallel A) | Ruby (parallel B) | Total |
+|------|--------------|-----------------|-------------------|-------|
+| Typical | 5–6 h | 3–4 h | 0–2 h | 8–12 h |
+| Busy | 5–6 h | 1–2 h | 0 h | 6–8 h |
 
-**冲突优先级：** DB > OS > Ruby > LeetCode
+**Priority on conflict:** DB > OS > Ruby > LeetCode
 
 ---
 
-## 阶段对齐
+## Phase alignment
 
 ```
-周次    DB 轨                 OS 轨                 Ruby 轨               协同点
-──────────────────────────────────────────────────────────────────────────────────
-W1–2    E1 Storage            O1 Foundations        R1 RubyMonk           页 / self
-W3–4    E1→E2 Query           O2 Process/Memory     R2 Metaprogramming    动态方法
-W5–6    E2 Query              O3 Runtime/Linking     R3 Rails Internals    AR / SQL
-W7–8    E3 Transactions ★     O4 Concurrency ★      R4 OO Design ★        锁 / 对象
-W9      E4 Recovery ★         O6 I/O & FS ★         R3 收尾               WAL
-W10     E5 Architecture       O6 L27 DB bridge ★    —                     系统闭合
+Week    DB track                    OS track              Ruby track            Sync point
+─────────────────────────────────────────────────────────────────────────────────────────
+W1–2    E1 B+Tree & Indexes         O1 Foundations        R1 RubyMonk           pages / self
+W3      E2 Query Execution          O2 Process/Memory     R2 Metaprogramming    dynamic dispatch
+W4–5    E3 Transactions & MVCC ★    O3 Runtime/Linking    R3 Rails Internals    AR / SQL
+W6      E4 Query Optimizer          O4 Concurrency ★      R4 OO Design          locks / objects
+W7      E5 Recovery + PG capstone   O6 I/O & FS ★         R3 wrap-up            WAL / system map
 ```
 
-★ = 三轨刻意对齐周（weekly review 对照笔记）
+★ = intentional cross-track sync week (compare notes in weekly review)
 
 ---
 
-## 当前状态（2026-06-06）
+## Current status (2026-06-06)
 
-| 轨 | 当前任务 | 状态 |
-|----|----------|------|
-| DB | E1 Storage & Indexes | in progress |
+| Track | Current task | Status |
+|-------|--------------|--------|
+| DB | E1 B+Tree & Indexes | in progress |
 | OS | O1 Foundations | not started |
 | Ruby | R1 RubyMonk Ascent | not started |
 
 ---
 
-## 每周节奏（模板）
+## Weekly rhythm (template)
 
-| 天 | DB（主） | OS（副 A） | Ruby（副 B） |
-|----|----------|------------|--------------|
-| Mon | CMU lecture + EXPLAIN | — | — |
-| Tue | — | jyy lecture + 笔记 | — |
-| Wed | 教材 / 论文 | — | RubyMonk 1 章 |
-| Thu | — | jyy 或实验 | — |
-| Fri | 难点补课 | strace/gdb | koans / 源码 |
+| Day | DB (primary) | OS (parallel A) | Ruby (parallel B) |
+|-----|--------------|-----------------|-------------------|
+| Mon | CMU lecture + EXPLAIN ANALYZE | — | — |
+| Tue | — | jyy lecture + notes | — |
+| Wed | Textbook Ch 14–18 / papers | — | RubyMonk 1 chapter |
+| Thu | — | jyy or lab | — |
+| Fri | Hard topic review | strace/gdb | koans / source |
 | Sun | **weekly review** | registry + backlog | |
 
-**最低进度：** 每周 1 个 DB 里程碑 + 2 集 OS；Ruby 可跳过。
+**Minimum progress:** 1 DB milestone + 2 OS lectures per week; Ruby skippable.
 
 ---
 
-## 决策规则
+## Decision rules
 
-1. **冲突时保主轨** — DB 未完成，OS 维持 1 集/周，Ruby 可整周跳过。
-2. **汇合周不可跳过** — W7–10 双轨/三轨对齐尽量遵守。
-3. **L27 是 OS↔DB 里程碑** — 完成后标记 E3–E5 OS 先修。
-4. **R3↔E3** — 读 AR 事务代码时对照 DB 隔离级别笔记。
-5. **一课一输出** — 每轨至少：3 条笔记 OR 1 个小实验。
+1. **Protect the primary track** — if DB is behind, OS stays at 1 lecture/week; Ruby can skip a week.
+2. **E3 is non-negotiable** — Transactions & MVCC gets extra time; don't rush it.
+3. **Sync weeks matter** — W4–W7 cross-track alignment; use weekly review to connect notes.
+4. **L27 is the OS↔DB milestone** — mark OS prerequisite for E3–E5 complete after O6.
+5. **R3↔E3** — read ActiveRecord transaction code alongside isolation level notes.
+6. **One output per session** — each track: 3 notes OR 1 small experiment minimum.
 
 ---
 
-## 完成定义
+## Definition of done
 
-### DB 轨
-- E1–E5 各任务 Output checklist 全勾
+### DB track
+- E1–E5 output checklists complete
+- 3 papers read (Isolation Levels, SSI, LSM-Tree)
+- PostgreSQL capstone: EXPLAIN fluency + VACUUM/MVCC checklist
 
-### OS 轨
-- O1–O6 全勾；`15-operating-systems/notes/` ≥ 15 条要点
+### OS track
+- O1–O6 complete; `15-operating-systems/notes/` ≥ 15 bullet points
 
-### Ruby 轨
-- R1–R4 全勾；`25-ruby/notes/` 含 mini `belongs_to` + has_many 链路图 + 一次 OO 重构记录
+### Ruby track
+- R1–R4 complete; `25-ruby/notes/` includes mini `belongs_to` + has_many chain diagram + one OO refactor log

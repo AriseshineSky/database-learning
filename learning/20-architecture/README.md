@@ -9,4 +9,4 @@ Suggested topics (engineering track):
 - Read models / CQRS patterns on top of relational DBs
 - Your own backend experience mapped to the behavior model from E1–E5
 
-Complete after [e5_architecture_and_scale](../10-database/tasks/e5_architecture_and_scale.md).
+Complete after [e5_recovery_and_postgresql](../10-database/tasks/e5_recovery_and_postgresql.md). Optional: [e5_architecture_and_scale](../10-database/tasks/e5_architecture_and_scale.md).

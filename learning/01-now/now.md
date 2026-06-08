@@ -1,19 +1,19 @@
 # Current Task
 
-**Task:** Storage & Indexes (Engineering E1)  
-**Track:** engineering  
+**Task:** B+Tree & Indexes (Engineering E1)  
+**Track:** engineering — Part 1 (~40% ROI)  
 **Started:** 2026-06-06  
-**Target:** Index design checklist + EXPLAIN fluency
+**Target:** Index design checklist + leftmost prefix fluency
 
 ## Goal
 
-Understand storage and indexing well enough to design schemas and indexes in production — without implementing buffer pools or B+ trees.
+Understand B+Tree indexing for production — range scans, composite indexes, leftmost prefix rule. Skip buffer pool and page-split implementation.
 
 ## Output
 
 - [ ] Notes: index design checklist
 - [ ] 3+ EXPLAIN (ANALYZE, BUFFERS) examples saved
-- [ ] Can explain composite index order and when seq scan wins
+- [ ] Can explain why `WHERE b = 1` can't use `INDEX(a, b, c)`
 
 ## Materials
 
@@ -21,20 +21,21 @@ See: [tasks/e1_storage_and_indexes.md](../10-database/tasks/e1_storage_and_index
 
 ## Today's focus
 
-1. Watch CMU Lecture #08 (Indexes & Filters I) — start here if storage basics are rusty, do #03 first
-2. Read textbook Ch 14.1–14.4 (B+ tree, composite indexes)
-3. Set up local PostgreSQL (if not done) for hands-on
+1. Watch CMU Lecture #08 (Indexes & Filters I)
+2. Read textbook Ch 14.1–14.5 (B+Tree, composite indexes)
+3. Skim Lecture #07 — why Hash ✗ for `BETWEEN` range queries
 4. Run one query with `EXPLAIN (ANALYZE, BUFFERS)` — with and without an index
 
 ## Skip today
 
-- BusTub clone / P1 buffer pool implementation
-- LRU replacement policy implementation details
+- Lectures #03–#05, #04 (buffer pool), #10 (latches)
+- BusTub P1/P2 implementation
+- Clock / LRU-K replacement policies
 
 ---
 
 ## Parallel track (after today's DB focus)
 
-OS 副轨 A：[`parallel.md`](./parallel.md) — 本周 O1，看 L01–L02。  
-Ruby 副轨 B：[`parallel-ruby.md`](./parallel-ruby.md) — 有余力时 R1 RubyMonk。  
-总表：[`master-schedule.md`](../00-roadmap/master-schedule.md)
+OS parallel A: [`parallel.md`](./parallel.md) — O1 this week, L01–L02.  
+Ruby parallel B: [`parallel-ruby.md`](./parallel-ruby.md) — R1 RubyMonk when time allows.  
+Master schedule: [`master-schedule.md`](../00-roadmap/master-schedule.md)

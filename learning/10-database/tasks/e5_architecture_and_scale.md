@@ -1,9 +1,11 @@
-# Task: Architecture & Scale (Engineering)
+# Task: Architecture & Scale (Optional)
 
 **Status:** not started  
-**Track:** engineering  
-**Prerequisite:** e4_recovery_and_durability  
+**Track:** optional — skip unless you need distributed/scale depth  
+**Prerequisite:** e5_recovery_and_postgresql  
 **Registry:** L23–L24, P03 (Architecture paper)
+
+> **Note:** Not required for the engineering track. Complete [e5_recovery_and_postgresql.md](./e5_recovery_and_postgresql.md) first.
 
 ## Goal
 

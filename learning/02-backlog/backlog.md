@@ -9,13 +9,13 @@ See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-
 
 ## Engineering track
 
-| # | Task | Status |
-|---|------|--------|
-| E1 | [Storage & Indexes](../10-database/tasks/e1_storage_and_indexes.md) | **in progress** ← now |
-| E2 | [Query Execution & Optimizer](../10-database/tasks/e2_query_execution_and_optimizer.md) | not started |
-| E3 | [Transactions & Isolation](../10-database/tasks/e3_transactions_and_isolation.md) | not started |
-| E4 | [Recovery & Durability](../10-database/tasks/e4_recovery_and_durability.md) | not started |
-| E5 | [Architecture & Scale](../10-database/tasks/e5_architecture_and_scale.md) | not started |
+| # | Task | Focus | Status |
+|---|------|-------|--------|
+| E1 | [B+Tree & Indexes](../10-database/tasks/e1_storage_and_indexes.md) | Part 1 (~40% ROI) | **in progress** ← now |
+| E2 | [Query Execution](../10-database/tasks/e2_query_execution.md) | Part 2 (~80% core) | not started |
+| E3 | [Transactions & MVCC](../10-database/tasks/e3_transactions_and_isolation.md) | Part 3 ★ most important | not started |
+| E4 | [Query Optimizer](../10-database/tasks/e4_query_optimizer.md) | Part 4 | not started |
+| E5 | [Recovery & PostgreSQL Capstone](../10-database/tasks/e5_recovery_and_postgresql.md) | Part 5 + integration | not started |
 
 ## Foundation (parallel, if rusty)
 
@@ -23,6 +23,14 @@ See [engineering-track.md](../00-roadmap/engineering-track.md), [os-engineering-
 |---|------|--------|
 | F1 | SQL & relational model (L01–L02, Ch 1–5) | not started |
 | F2 | Local PostgreSQL + psql setup for hands-on | not started |
+
+## Optional DB depth (skip for engineering)
+
+| # | Task | Status |
+|---|------|--------|
+| D1 | [Architecture & Scale](../10-database/tasks/e5_architecture_and_scale.md) | optional |
+| D2 | Volcano paper — iterator model | optional |
+| D3 | ARIES paper — recovery algorithm detail | skip |
 
 ## Optional kernel track (skip for engineering)
 

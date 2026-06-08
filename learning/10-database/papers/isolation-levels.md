@@ -12,11 +12,11 @@
 
 ## Used in
 
-- [p4_concurrency](../tasks/p4_concurrency.md) (optional, deep dive)
+- [e3_transactions_and_isolation](../tasks/e3_transactions_and_isolation.md) — **required paper #1**
 
 ## Read when
 
-During P4 if you want deeper concurrency understanding.
+During E3 (Transactions & MVCC).
 
 ## Key takeaways
 
